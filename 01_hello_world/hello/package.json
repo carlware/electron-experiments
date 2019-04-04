@@ -1,0 +1,17 @@
+{
+	"name": "first-electron-app",
+	"version": "1.0.0",
+	"description": "my first electron app",
+	"main": "./app/main.js",
+	"scripts": {
+		"start": "electron ."
+	},
+	"keywords": [
+		"electron"
+	],
+	"author": "Haider Malik",
+	"license": "ISC",
+	"dependencies": {
+		"electron": "^4.1.3"
+	}
+}
