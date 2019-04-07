@@ -1,0 +1,14 @@
+{
+	"name": "electron",
+	"version": "1.0.0",
+	"description": "test",
+	"main": "main.js",
+	"scripts": {
+		"start": "electron ."
+	},
+	"license": "",
+	"devDependencies": {
+		"electron": "^3.0.4",
+		"electron-reload": "^1.2.5"
+	}
+}
