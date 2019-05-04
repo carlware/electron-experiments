@@ -1,0 +1,81 @@
+@import "bootstrap.min.css";
+
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+  background: #1f323e;
+  font-family: "Oswald", sans-serif;
+}
+
+.App {
+  text-align: center;
+}
+
+.HomeScreen {
+  padding-top: 35px;
+}
+
+.categories-head-title {
+  color: white;
+  font-weight: 600;
+}
+
+.categories-head-title-br {
+  border-top: "1px solid #968d81";
+}
+
+.categories-item {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.categories-item-selected {
+  color: rgb(156, 141, 141);
+}
+
+.movie-item {
+  margin-bottom: 20px;
+}
+
+.movie-title {
+  color: white;
+  font-size: 22px;
+  margin-top: 8px;
+  font-weight: 500;
+}
+
+.movies-head-message {
+  color: white;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.movies-grid {
+  margin-bottom: 40px;
+}
+
+.navigation-button {
+  background-color: transparent !important;
+  border: white 2px solid !important;
+  color: white !important;
+}
+
+.movie-close-btn {
+  opacity: 0.4;
+  z-index: 1;
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  fill: red;
+}
+
+.movie-close-btn:hover {
+  opacity: 1;
+}
